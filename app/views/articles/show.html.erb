@@ -1,4 +1,4 @@
-<h1>here's the article</h1>
+<h1>show article</h1>
 
 <p>
   Title: <%= @article.title %>
@@ -6,3 +6,7 @@
 <p>
   Description: <%= @article.description %>
 </p>
+
+<%= link_to "edit this article | ", edit_article_path(@article) %>
+
+<%= link_to "Back to articles listing", articles_path %>
