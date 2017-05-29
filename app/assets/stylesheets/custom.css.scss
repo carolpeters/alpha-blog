@@ -1,3 +1,66 @@
+$navbar-default-bg: pink;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: teal;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('protea.jpg');
+  background-size: cover;
+  height: 1400px;
+}
+
+.jumbotron h1 {
+  color: red;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
+}
+
+footer {
+  margin-top: 25px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: pink;
+}
+
+footer a:hover {
+  color: red;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
