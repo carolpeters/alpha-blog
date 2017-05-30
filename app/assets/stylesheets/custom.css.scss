@@ -41,16 +41,27 @@ $navbar-default-bg: pink;
 }
 
 .article-actions {
-  border-top: 1px solid black;
-  padding-top: 5px;
+  border-top: 1px solid CadetBlue;
+  padding-top: 7.5px;
 }
 
 .description {
   margin-top: 0;
 }
 
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 footer {
-  margin-top: 10px;
+  margin-top: 20px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: pink;
