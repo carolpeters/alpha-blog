@@ -70,6 +70,17 @@ $navbar-default-bg: pink;
   padding-left: 0;
 }
 
+.badge {
+  background-color: pink;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
 footer {
   margin-top: 20px;
   padding-top: 5px;
